@@ -7,6 +7,7 @@ const swaggerUi = require("swagger-ui-express");
 const swaggerSpec = require("./swagger/swaggerConfig");
 const fs = require("fs");
 const path = require("path");
+const ejs = require("ejs")
 
 
 const app = express();
@@ -65,7 +66,7 @@ commentRoutes(app)
 app.use((req, res) => {
   res.status(404).send({
     error: 'Page Not Found',
-    message: 'The requested resource was not found 2'
+    message: 'The requested resource was not found 3'
   });
 });
 

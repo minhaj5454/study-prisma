@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-       "start": "nodemon server.js",
+    "start": "nodemon server.js",
     "lint": "echo 'No linter yet... skipping lint'",
-    "test": "echo 'No tests yet... skipping test' && exit 0" 
+    "test": "echo 'No tests yet... skipping test' && exit 0"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
+    "ejs": "^3.1.10",
     "express": "^4.17.1",
     "i18next": "^22.4.11",
     "i18next-fs-backend": "^2.1.1",
