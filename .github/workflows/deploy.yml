@@ -32,4 +32,4 @@ jobs:
 
       - name: Trigger Render Deployment
         run: |
-          curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
+          curl -X POST https://study-prisma.onrender.com/

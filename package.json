@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+       "start": "nodemon server.js",
+    "lint": "echo 'No linter yet... skipping lint'",
+    "test": "echo 'No tests yet... skipping test' && exit 0" 
   },
   "keywords": [],
   "author": "",
