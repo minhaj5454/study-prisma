@@ -9,6 +9,7 @@ const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs")
 
+console.log(ejs)
 
 const app = express();
 const morgan = require('morgan');
